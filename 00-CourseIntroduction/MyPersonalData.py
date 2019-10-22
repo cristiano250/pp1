@@ -1,5 +1,6 @@
 #My personal data
-imię=Krystian
-nazwisko=Stec
+imię="Krystian"
+nazwisko="Stec"
 wiek=26
-print(imię;nazwisko;wiek)
+print(imię +" "+nazwisko)
+print(wiek)
