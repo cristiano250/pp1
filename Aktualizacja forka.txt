@@ -1,0 +1,8 @@
+AKTUALIZACJA REPOZYTORIUM:
+
+1. git remote add upstream /adres/
+2. git remote
+3. git fetch upstream
+4. git merge upstream/master
+5. git push
+
