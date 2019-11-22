@@ -1,0 +1,3 @@
+git add *
+git commit -m 'tutaj jakiś komentarz co wrzucasz'
+git push
