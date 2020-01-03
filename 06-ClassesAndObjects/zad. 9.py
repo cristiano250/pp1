@@ -1,0 +1,20 @@
+class University():
+    def __init__(self):
+        self.name = 'UEK'
+        self.fullname='Uniwersytet Ekonomiczny w Krakowie'
+    def print_name(self):
+        print(self.name)
+    def set_name(self, new_name):
+        self.name=new_name
+    def print_fullname(self):
+        print(self.fullname)
+    def set_fullname(self, fullname):
+        self.fullname=fullname
+        
+uczelnia=University()
+uczelnia.print_name()
+uczelnia.print_fullname()
+uczelnia.set_name('AGH')
+uczelnia.print_name()
+uczelnia.set_fullname('Akademia Górniczo-Hutnicza')
+uczelnia.print_fullname()
